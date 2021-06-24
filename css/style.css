@@ -59,12 +59,17 @@ footer{
 
 .col-4{
     border: 1px solid rgb(122, 96, 96);
-    height: 600px;
+    height: 100px;
 }
 
 .col-5{
     border: 1px solid rgb(122, 96, 96);
     height: 600px;
+}
+
+.col-6{
+    border: 1px solid rgb(122, 96, 96);
+    height: 100px;
 }
 
 .col-7{
@@ -79,4 +84,9 @@ footer{
 
 .white{
     background-color: white;
+}
+
+
+div{
+    border: 1px solid black;
 }
