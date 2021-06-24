@@ -1,40 +1,102 @@
-    /* ******************** JUMBOTRON ******************** */
-#jumbotron{
-    background-image: url('../img/jumbo-bg.png');
+/* ******************** JUMBOTRON ******************** */
+#jumbotron {
+  background-image: url("../img/jumbo-bg.png");
+  background-size: cover;
+  background-position: center;
+}
+#jumbotron img {
+  width: 60%;
+}
+#jumbotron h2 {
+  font-size: 44px;
+}
+#jumbotron .btn {
+  color: white;
+  background-color: #cd3d12;
+  font-weight: bold;
+}
+
+/* ******************** IMAGE UNDER BANNER ******************** */
+#img-for-banner img {
+  width: 100%;
+  height: 100%;
+}
+
+/* ******************** PS5 TITLE e BANNER   ******************** */
+#ps5-title p,
+#ps5-banner p {
+  font-size: 18px;
+  color: gray;
+}
+#ps5-title h2,
+#ps5-banner h2 {
+  font-size: 36px;
+}
+#ps5-banner button {
+  font-size: 14px;
+  color: white;
+  background-color: #01439b;
+  border-radius: 20px;
+  width: fit-content;
+}
+
+#ps5-banner img {
+  width: 100%;
+}
+
+/* ********************  PRODUCT LIST  ******************** */
+#product-list img {
+  width: 100%;
+}
+
+/* ******************** FIRST FULL IMAGE ******************** */
+#first-full-image{
+    height: 620px;
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
     background-size: cover;
     background-position: center;
 }
 
-#jumbotron img{
-    width: 60%;
+#first-full-image img{
+    width: 70%;
 }
 
-#jumbotron h2{
-    font-size: 44px;   
+#first-full-image h2{
+   font-size: 46px;
 }
 
-#jumbotron .btn{
+#first-full-image .btn {
     color: white;
-    background-color: #CD3D12; 
-    font-weight: bold;  
-    border-radius: 20px;
+    background-color: #cd3d12;
+    font-weight: bold;
+  }
+
+#new-exit img{
+    width: ;
 }
 
-
-
-
-
-
-
-
-    /* ******************** DA ELIMINARE ******************** */
-body{
-    background-color: dodgerblue;
+#explore-product p{
+    font-size: 20px;
 }
 
+header img{
+    width:10%;
+}
 
-.max-size{
-    max-width: 1200px;
+/* ******************** MEDIA QUERY ******************** */
+@media screen and (max-width: 576px) {
+  main .container {
+    padding: 0 20px;
+  }
+}
+
+/* ******************** DA ELIMINARE ******************** */
+body {
+  background-color: dodgerblue;
+}
+
+.max-size {
+  max-width: 1200px;
 }
 
 header {
@@ -43,75 +105,66 @@ header {
   border: 1px solid black;
 }
 
-
-
-.top-bar{
-    height: 35px;
-    width: 100%;
-    background-color: black;
+.top-bar {
+  height: 35px;
+  width: 100%;
+  background-color: black;
 }
 
-main .container, footer .container{
-    padding: 0 40px;
+main .container,
+footer .container {
+  padding: 0 40px;
+  border: 1px solid black;
+}
+
+footer .container {
+  background-color: #01439b;
+}
+
+footer {
+  width: 100%;
+  border: 1px solid black;
+}
+
+.bottom-bar {
+  height: 65px;
+  width: 100%;
+  background-color: whitesmoke;
+}
+
+#jumbotron{
+  height: 560px;
+  width: 100%x;
+  background-color: bisque;
+}
+
+.black {
+  background-color: #202020;
+}
+
+.white {
+  background-color: white;
+}
+
+/* div{
     border: 1px solid black;
+} */
+
+#full-image-second{
+    background-color: #BEBCBB;
+}
+#full-image-third{
+    background-color: #161D3B;
 }
 
-footer .container{
-    background-color: #01439B;
+.sie-logo img{
+    width: 20%;
 }
 
-footer{
-    width: 100%;
-    border: 1px solid black;
+ul{
+    list-style: none;
 }
 
-.bottom-bar{
-    height: 65px;
-    width: 100%;
-    background-color: whitesmoke;
-}
-
-#jumbotron, #full-image{
-    height: 560px;
-    width: 100%x;
-    background-color: bisque;
-}
-
-.col-2{
-    border: 1px solid rgb(122, 96, 96);
-    height: 100px;
-}
-
-.col-12{
-    border: 1px solid rgb(122, 96, 96);
-    height: 100px;
-}
-
-.col-4{
-    border: 1px solid rgb(122, 96, 96);
-    height: 100px;
-}
-
-.col-5{
-    border: 1px solid rgb(122, 96, 96);
-    height: 600px;
-}
-
-.col-6{
-    border: 1px solid rgb(122, 96, 96);
-    height: 100px;
-}
-
-.col-7{
-    border: 1px solid rgb(122, 96, 96);
-    height: 600px;
-}
-
-
-.black{
-    background-color: #202020;
-}
-
-.white{
-    background-color: white;
+a{
+    text-decoration: none;
 }
