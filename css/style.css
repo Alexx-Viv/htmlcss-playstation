@@ -1,3 +1,33 @@
+    /* ******************** JUMBOTRON ******************** */
+#jumbotron{
+    background-image: url('../img/jumbo-bg.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#jumbotron img{
+    width: 60%;
+}
+
+#jumbotron h2{
+    font-size: 44px;   
+}
+
+#jumbotron .btn{
+    color: white;
+    background-color: #CD3D12; 
+    font-weight: bold;  
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+    /* ******************** DA ELIMINARE ******************** */
 body{
     background-color: dodgerblue;
 }
@@ -84,9 +114,4 @@ footer{
 
 .white{
     background-color: white;
-}
-
-
-div{
-    border: 1px solid black;
 }
