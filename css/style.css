@@ -13,20 +13,26 @@ header {
   border: 1px solid black;
 }
 
+
+
 .top-bar{
     height: 35px;
     width: 100%;
     background-color: black;
 }
 
-main .container{
+main .container, footer .container{
     padding: 0 40px;
+    border: 1px solid black;
+}
+
+footer .container{
+    background-color: #01439B;
 }
 
 footer{
     width: 100%;
-    height: 600PX;
-    background-color: black;
+    border: 1px solid black;
 }
 
 .bottom-bar{
@@ -64,4 +70,13 @@ footer{
 .col-7{
     border: 1px solid rgb(122, 96, 96);
     height: 600px;
+}
+
+
+.black{
+    background-color: #202020;
+}
+
+.white{
+    background-color: white;
 }
